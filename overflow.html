@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        .box{
+            width: 300px;
+            height: 300px;
+            border: 3px solid blue;
+            overflow: scroll;
+            /* overflow: hidden; */
+            overflow: auto;
+        
+        }
+        .ellipis{
+            width: 200px;
+            border: 1px solid steelblue;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis ;
+            /* text-overflow: clip; */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p class="ellipis" title="I am naimur Rahman i love maimuna voluptatibus rem corporis hic recusandae">I am naimur Rahman i love maimuna voluptatibus rem corporis hic recusandae</p>
+    </header>
+    <section>
+        <div id="box-1" class="box">
+            <h3>My Text Box 1</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur reiciendis tempora eveniet neque optio dignissimos voluptatibus rem corporis hic recusandae! Impedit perferendis temporibus possimus velit, veritatis libero. Dolores voluptates nostrum modi quam illo cupiditate eveniet reiciendis sit eaque ratione vero, cum molestiae quia optio iste veritatis, ducimus aliquid aliquam necessitatibus quod in laborum asperiores? Eius itaque reprehenderit aliquam necessitatibus similique voluptatibus provident illo aperiam libero ut nisi nulla voluptas maiores accusamus suscipit nemo nesciunt optio est ipsam vel ducimus totam fugiat, neque soluta. Eaque autem minima fugiat excepturi distinctio debitis veniam? Laboriosam ipsam esse recusandae. Odit suscipit deserunt molestiae ut.</p>
+        </div>
+        <div class="box">
+            <h3>My Text Box 2</h3>
+            <p>Eum numquam exercitationem voluptates ratione dolorem aperiam commodi pariatur deserunt dolorum, iure quas velit ipsam ea laudantium doloribus optio. Quam ea fuga, ab ullam ad ratione autem excepturi expedita praesentium officiis at iusto dolores, provident delectus ducimus voluptatibus aut dignissimos corrupti qui aspernatur! Iure, assumenda repudiandae nemo consequatur alias voluptatem quam qui facilis officia quidem totam officiis aut maxime earum tempore, a cupiditate blanditiis vel! Dicta omnis illum atque consequuntur sunt itaque blanditiis dolore quae quaerat sed, quasi porro aut veniam iure ducimus vitae unde pariatur neque officiis fuga obcaecati ipsam laudantium animi! Saepe nihil soluta quod consequuntur atque et.</p>
+        </div>
+    </section>
+</body>
+</html>
